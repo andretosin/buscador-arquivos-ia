@@ -109,7 +109,7 @@ class FileSearchApp:
         master.title("Buscador de Arquivos AI")
         
         # Sua API key
-        default_api_key = "AIzaSyB4P8OG6Kirw1Wu-pUhHhzs0r0b7Q2qDus"
+        default_api_key = "insira_a_api_key"
         
         window_width = 800
         window_height = 800
@@ -252,7 +252,7 @@ Número total de diretórios: {len(all_directories)}
 Amostra de diretórios (limitada a {max_directories}):
 """
         for directory in directories_sample:
-            prompt += f"- {directory}\n"
+            prompt += f" {directory}\n"
 
         prompt += """
 Apresente sua resposta no seguinte formato:
