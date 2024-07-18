@@ -109,7 +109,7 @@ class FileSearchApp:
         master.title("Buscador de Arquivos AI")
         
         # Sua API key
-        default_api_key = "AIzaSyB4P8OG6Kirw1Wu-pUhHhzs0r0b7Q2qDus"
+        default_api_key = "insira_a_api_key"
         
         window_width = 800
         window_height = 800
