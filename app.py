@@ -252,7 +252,7 @@ Número total de diretórios: {len(all_directories)}
 Amostra de diretórios (limitada a {max_directories}):
 """
         for directory in directories_sample:
-            prompt += f" {directory}\n"
+            prompt += f"- {directory}\n"
 
         prompt += """
 Apresente sua resposta no seguinte formato:
